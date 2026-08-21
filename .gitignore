@@ -1,0 +1,22 @@
+# Unity
+/Library/
+/Temp/
+/Logs/
+/UserSettings/
+/Build/
+/Builds/
+
+# 유니티가 자동 생성하는 IDE 파일
+*.csproj
+*.sln
+*.user
+!Tools/**/*.csproj
+!Sim/**/*.csproj
+
+# .NET 빌드 산출물
+bin/
+obj/
+
+# OS
+Thumbs.db
+.DS_Store
